@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 import br.com.fiap.knsecommerce.entity.Categoria;
 
+/**
+ * @author Kaio Nylander
+ *
+ */
 public class CategoriaDAO extends DAO<Categoria> implements I_DAO<Categoria>{
 
 	/**
