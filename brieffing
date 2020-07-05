@@ -1,0 +1,61 @@
+Cliente
+	id
+	email
+	senha
+	telefone
+	
+	PF
+		Nome
+		CPF
+		DataNascimento
+	PJ
+		RazaoSocial
+		CNPJ
+		IE
+
+Pagamento
+	id
+	data
+	status
+	carrinho_id
+	
+	Bandeira
+	NumeroCartao
+	CodigoVerificacao
+	Validade
+	NomeImpresso
+	
+Produto
+	id
+	nome
+	descricao
+	valor
+	quantidade
+	categoria_id
+	
+Categorias
+	id
+	nome
+	
+Pedido
+	id
+	numero
+	data
+	previsaoDeEntrega
+	dataDeEnvio
+	frete
+	cliente_id
+	itensDePedido_id
+	status
+
+ItensDePedido (Pedido/Produto)
+	id
+	produto_id
+	preco_unitario
+	quantidade
+	
+Carrinho
+	id
+	itens_pedido_id
+	cliente_id
+	dadosDePagamento_id
