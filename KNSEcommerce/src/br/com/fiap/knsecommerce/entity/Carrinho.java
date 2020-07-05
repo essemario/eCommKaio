@@ -55,6 +55,9 @@ public class Carrinho {
 	 * @return the itensPedido
 	 */
 	public ArrayList<ItemPedido> getItensPedido() {
+		if(itensPedido == null) {
+			itensPedido = new ArrayList<ItemPedido>();
+		}
 		return itensPedido;
 	}
 	/**

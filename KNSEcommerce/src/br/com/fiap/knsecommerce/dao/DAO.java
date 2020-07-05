@@ -9,8 +9,7 @@ public abstract class DAO<T> {
 	 */
 	public T inserir(T objeto) {
 		try {
-			System.out.println("Inserido no banco >>");
-			System.out.println(objeto);
+			System.out.println("Inserido no banco >> " + objeto);
 		} catch (Exception e) {
 			System.out.println("ERRO AO INSERIR:" + e.getMessage());
 		}
@@ -24,8 +23,7 @@ public abstract class DAO<T> {
 	 */
 	public T atualizar(T objeto) {
 		try {
-			System.out.println("Atualizado no banco");
-			System.out.println(objeto);
+			System.out.println("Atualizado no banco >>" + objeto);
 		} catch (Exception e) {
 			System.out.println("ERRO AO ATUALIZAR:" + e.getMessage());
 		}
@@ -39,8 +37,7 @@ public abstract class DAO<T> {
 	 */
 	public boolean remover(T objeto) {
 		try {
-			System.out.println("Removido do banco");
-			System.out.println(objeto);
+			System.out.println("Removido do banco >> " + objeto);
 		} catch (Exception e) {
 			System.out.println("ERRO AO REMOVER:" + e.getMessage());
 		}

@@ -6,7 +6,6 @@ package br.com.fiap.knsecommerce.dao;
 import java.util.ArrayList;
 
 import br.com.fiap.knsecommerce.entity.ClientePF;
-import br.com.fiap.knsecommerce.entity.ClientePJ;
 
 /**
  * @author Kaio Nylander
